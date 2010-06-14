@@ -1,0 +1,8 @@
+jQuery plugin to scroll elements from left to right (Or right to left, with modification). It uses margins and jQuery's .animate()
+
+Thanks to @rem (http://remysharp.com/2008/10/17/jquery-really-visible/) for the :reallyVisible code.
+
+Example:
+	$('.scrollArea').magicScroll();
+
+It's that simple!

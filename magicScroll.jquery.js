@@ -9,7 +9,7 @@
 		if(settings) { $.extend(config, settings); }
 		this.each(function(){
 			console.log( $(this).is(':reallyVisible') );
-			if( $(this).is(':reallyVisible') === false || ( $(this).is(':animated') === true && settings.loop === false)) { return; }
+			if( $(this).is(':reallyVisible') === false || ( $(this).is(':animated') === true && config.loop === false)) { return; }
 			var tWidth = 0;
 			$(this).find('*').each(function(){ tWidth += $(this).outerWidth(); });
 			var ttWidth = $(this).outerWidth(true);
